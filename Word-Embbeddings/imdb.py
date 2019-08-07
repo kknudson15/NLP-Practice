@@ -5,6 +5,10 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import io
 
+'''
+http://projector.tensorflow.org to visualize the word mapping via output data.
+'''
+
 
 #This is needed for versions of tensorflow below 2.X
 tf.enable_eager_execution()
