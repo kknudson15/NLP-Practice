@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50a74a74-8737-41ed-93c4-533b5c02940b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/sarcasm/classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sarcasm/sarcasm.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word-Embbeddings/imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/Word-Embbeddings/imdb.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,14 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="imdb.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Word-Embbeddings/imdb.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="classifier.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sarcasm/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,6 +47,7 @@
         <option value="$PROJECT_DIR$/sarcasm.py" />
         <option value="$PROJECT_DIR$/Word-Embbeddings/imbd.py" />
         <option value="$PROJECT_DIR$/Word-Embbeddings/imdb.py" />
+        <option value="$PROJECT_DIR$/sarcasm/classifier.py" />
       </list>
     </option>
   </component>
@@ -59,6 +61,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,19 +72,26 @@
             <path>
               <item name="NLP-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Word-Embbeddings" type="462c0819:PsiDirectoryNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP-Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP-Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="sarcasm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sarcasm" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/basics" />
     </key>
@@ -98,7 +108,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.imdb">
+  <component name="RunManager" selected="Python.classifier">
+    <configuration name="classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sarcasm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sarcasm/classifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="imdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,9 +185,11 @@
       <item itemvalue="Python.naturallp" />
       <item itemvalue="Python.sarcasm" />
       <item itemvalue="Python.imdb" />
+      <item itemvalue="Python.classifier" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.classifier" />
         <item itemvalue="Python.imdb" />
         <item itemvalue="Python.sarcasm" />
         <item itemvalue="Python.naturallp" />
@@ -184,17 +214,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565209132298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="include embedding visualizing site">
+      <created>1565209805399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565209805399</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="952" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32865497" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32865497" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32982457" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32982457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -215,9 +252,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Neural Network for Word-Embeddings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Neural Network for Word-Embeddings." />
+    <MESSAGE value="include embedding visualizing site" />
+    <option name="LAST_COMMIT_MESSAGE" value="include embedding visualizing site" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Word-Embbeddings/imdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sarcasm_Headlines_Dataset.json" />
     <entry file="file://$PROJECT_DIR$/basics/sarcasm.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -230,9 +278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -240,9 +285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="24" selection-start-line="24" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="e#10#67#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -258,6 +300,19 @@
           <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sarcasm/sarcasm.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sarcasm/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
