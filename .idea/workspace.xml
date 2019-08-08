@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50a74a74-8737-41ed-93c4-533b5c02940b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sarcasm/classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sarcasm/sarcasm.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="classifier.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sarcasm/classifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="kyle.knudson2015@gmail.com" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -48,6 +38,7 @@
         <option value="$PROJECT_DIR$/Word-Embbeddings/imbd.py" />
         <option value="$PROJECT_DIR$/Word-Embbeddings/imdb.py" />
         <option value="$PROJECT_DIR$/sarcasm/classifier.py" />
+        <option value="$PROJECT_DIR$/imdb/model.py" />
       </list>
     </option>
   </component>
@@ -68,16 +59,6 @@
             <path>
               <item name="NLP-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP-Practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP-Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP-Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="sarcasm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -108,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.classifier">
+  <component name="RunManager" selected="Python.model">
     <configuration name="classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,6 +121,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Word-Embbeddings/imdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imdb" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imdb/model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,9 +185,11 @@
       <item itemvalue="Python.sarcasm" />
       <item itemvalue="Python.imdb" />
       <item itemvalue="Python.classifier" />
+      <item itemvalue="Python.model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.model" />
         <item itemvalue="Python.classifier" />
         <item itemvalue="Python.imdb" />
         <item itemvalue="Python.sarcasm" />
@@ -221,21 +222,27 @@
       <option name="project" value="LOCAL" />
       <updated>1565209805399</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sarcasm Word Embedding model">
+      <created>1565275793378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565275793378</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="952" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32865497" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3282353" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32982457" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32982457" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3298122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32865497" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298122" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -253,7 +260,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Neural Network for Word-Embeddings." />
     <MESSAGE value="include embedding visualizing site" />
-    <option name="LAST_COMMIT_MESSAGE" value="include embedding visualizing site" />
+    <MESSAGE value="Sarcasm Word Embedding model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sarcasm Word Embedding model" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Word-Embbeddings/imdb.py">
@@ -314,6 +322,13 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imdb/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
