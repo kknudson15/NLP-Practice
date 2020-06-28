@@ -10,50 +10,50 @@ This Repository Contains my work learning natural language processing techniques
   
 ## **Highlight 1: Shakespeare model**  
 ### **_Description:_** 
-TDB 
+TBD
 
 ### **_Technical Concepts Used:_**
-TDB
+TBD
   
 ### **_What I learned:_**
-TDB  
+TBD 
 
 [see code here](/Shake)
 
 ## **Highlight 2: Word Embeddings model**  
 ### **_Description:_** 
-TDB 
+TBD 
 
 ### **_Technical Concepts Used:_**
-TDB
+TBD
   
 ### **_What I learned:_**
-TDB  
+TBD  
 
 [see code here](/Word-Embeddings)
 
 ## **Highlight 3: Basic model**  
 ### **_Description:_** 
-TDB 
+TBD
 
 ### **_Technical Concepts Used:_**
-TDB
+TBD
   
 ### **_What I learned:_**
-TDB  
+TBD 
 
 [see code here](/basics)
 
 
 ## **Highlight 4: Sarcasm model**  
 ### **_Description:_** 
-TDB 
+TBD
 
 ### **_Technical Concepts Used:_**
-TDB
+TBD
   
 ### **_What I learned:_**
-TDB  
+TBD  
 
 [see code here](/sarcasm)
   
