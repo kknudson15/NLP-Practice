@@ -3,10 +3,10 @@ This Repository Contains my work learning natural language processing techniques
 
 
 ## **Highlights** 
-  1. [Shakespeare model](#Highlight 1: Shakespeare model)
-  2. [Word Embeddings model](#Highlight 2: Word Embeddings model)
-  3. [Basic model](#Highlight 3: Basic model)
-  4. [Sarcasm model](#Highlight 4: Sarcasm model)
+  1. [Shakespeare Model](#highlight-1-shakespeare-model)
+  2. [Word Embeddings Model](#highlight-2-word-embeddings-model)
+  3. [Basic Model](#highlight-3-basic-model)
+  4. [Sarcasm Model](#highlight-4-sarcasm-model) 
   
 ## **Highlight 1: Shakespeare model**  
 ### **_Description:_** 
@@ -30,7 +30,7 @@ TDB
 ### **_What I learned:_**
 TDB  
 
-[see code here](/Word Embeddings)
+[see code here](/Word-Embeddings)
 
 ## **Highlight 3: Basic model**  
 ### **_Description:_** 
